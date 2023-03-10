@@ -1,0 +1,1 @@
+sqlplus system/oracle@xe /edek/00-create-database.sql

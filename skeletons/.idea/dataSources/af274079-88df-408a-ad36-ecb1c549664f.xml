@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle - @localhost">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.45">
+    <root id="1">
+      <IntrospectionLevel>3</IntrospectionLevel>
+      <ServerVersion>18.0.0.0.0</ServerVersion>
+      <TablespacesHash>25587666012</TablespacesHash>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APPQOSSYS">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="CTXSYS">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DBSNMP">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DVF">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="GGSYS">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="GSMCATUSER">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="LBACSYS">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="MDDATA">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="MDSYS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="OJVMSYS">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OLAPSYS">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORDDATA">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDPLUGINS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="ORDSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="PUBLIC">
+      <CreatedTimestamp>2018-10-18.09:49:05</CreatedTimestamp>
+      <IntrospectionL1Timestamp>2021-12-22.07:29:34</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2021-12-22.07:29:34</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2021-12-22.07:29:34</IntrospectionL3Timestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <ModifiedTimestamp>2021-12-22.06:42:18</ModifiedTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SYSTEM">
+      <CommentsHash>17307532751</CommentsHash>
+      <CreatedTimestamp>2018-10-18.09:49:21</CreatedTimestamp>
+      <Current>1</Current>
+      <IntrospectionL1Timestamp>2021-12-22.07:29:34</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2021-12-22.07:29:34</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2021-12-22.07:29:34</IntrospectionL3Timestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <ModifiedTimestamp>2018-10-18.10:17:31</ModifiedTimestamp>
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="WMSYS">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="XDB">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <tablespace id="38" parent="1" name="SYSTEM">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>2</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="39" parent="1" name="SYSAUX">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>2</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="40" parent="1" name="UNDOTBS1">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>U</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="41" parent="1" name="TEMP">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>T</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>0</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="42" parent="1" name="USERS">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <user id="43" parent="1" name="ANONYMOUS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>62</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="44" parent="1" name="APPQOSSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>54</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="45" parent="1" name="AUDSYS">
+      <Locked>1</Locked>
+      <ObjectId>8</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="46" parent="1" name="CTXSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>82</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="47" parent="1" name="DBSFWUSER">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>35</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="48" parent="1" name="DBSNMP">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>53</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="49" parent="1" name="DIP">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>23</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="50" parent="1" name="DVF">
+      <Locked>1</Locked>
+      <ObjectId>98</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="51" parent="1" name="DVSYS">
+      <Locked>1</Locked>
+      <ObjectId>1279990</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="52" parent="1" name="GGSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>59</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="53" parent="1" name="GSMADMIN_INTERNAL">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>21</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="54" parent="1" name="GSMCATUSER">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>58</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="55" parent="1" name="GSMUSER">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>22</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="56" parent="1" name="LBACSYS">
+      <Locked>1</Locked>
+      <ObjectId>96</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="57" parent="1" name="MDDATA">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>94</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="58" parent="1" name="MDSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>88</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="59" parent="1" name="OJVMSYS">
+      <Locked>1</Locked>
+      <ObjectId>80</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="60" parent="1" name="OLAPSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>91</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="61" parent="1" name="ORACLE_OCM">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>39</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="62" parent="1" name="ORDDATA">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>85</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="63" parent="1" name="ORDPLUGINS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>86</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="64" parent="1" name="ORDSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>84</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="65" parent="1" name="OUTLN">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>13</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="66" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>34</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="67" parent="1" name="SI_INFORMTN_SCHEMA">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>87</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="68" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="69" parent="1" name="SYS$UMF">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>46</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="70" parent="1" name="SYSBACKUP">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>2147483617</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="71" parent="1" name="SYSDG">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>2147483618</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="72" parent="1" name="SYSKM">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>2147483619</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="73" parent="1" name="SYSRAC">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>2147483620</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="74" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="75" parent="1" name="WMSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>71</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="76" parent="1" name="XDB">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>61</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="77" parent="1" name="XS$NULL">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>2147483638</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <data-file id="78" parent="38" name="/opt/oracle/oradata/XE/system01.dbf">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>1</FileId>
+      <FileSize>106240</FileSize>
+      <IncrementBy>1280</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <OnlineStatus>S</OnlineStatus>
+      <Position>1</Position>
+      <UserSize>106112</UserSize>
+    </data-file>
+    <data-file id="79" parent="39" name="/opt/oracle/oradata/XE/sysaux01.dbf">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>3</FileId>
+      <FileSize>64000</FileSize>
+      <IncrementBy>1280</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <OnlineStatus>E</OnlineStatus>
+      <Position>3</Position>
+      <UserSize>63872</UserSize>
+    </data-file>
+    <data-file id="80" parent="40" name="/opt/oracle/oradata/XE/undotbs01.dbf">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>4</FileId>
+      <FileSize>8960</FileSize>
+      <IncrementBy>640</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <OnlineStatus>E</OnlineStatus>
+      <Position>4</Position>
+      <UserSize>8832</UserSize>
+    </data-file>
+    <data-file id="81" parent="41" name="/opt/oracle/oradata/XE/temp01.dbf">
+      <AutoExtensible>1</AutoExtensible>
+      <FileId>1</FileId>
+      <FileSize>4224</FileSize>
+      <IncrementBy>80</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <Position>1</Position>
+      <UserSize>4096</UserSize>
+    </data-file>
+    <data-file id="82" parent="42" name="/opt/oracle/oradata/XE/users01.dbf">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>7</FileId>
+      <FileSize>640</FileSize>
+      <IncrementBy>160</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <OnlineStatus>E</OnlineStatus>
+      <Position>7</Position>
+      <UserSize>512</UserSize>
+    </data-file>
+  </database-model>
+</dataSource>

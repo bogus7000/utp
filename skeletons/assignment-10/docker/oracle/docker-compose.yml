@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+    oracle:
+        image: container-registry.oracle.com/database/express:latest
+        container_name: oracle
+        restart: always
+        ports:
+            - "1521:1521"  # please make sure no Oracle instance is running on 1521
+            - "5500:5500"
+
+        environment:
+            ORACLE_PWD: oracle
+
+        command: /edek/00-create-database.sh
+
+        volumes:
+            - "oradata:/opt/oracle/oradata"
+            - "./00-create-database.sql:/edek/00-create-database.sql"
+            - "./00-create-database.sh:/edek/00-create-database.sh"
+
+volumes:
+    oradata:
