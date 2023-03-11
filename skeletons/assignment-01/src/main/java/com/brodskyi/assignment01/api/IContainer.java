@@ -1,4 +1,5 @@
-package eu.glowacki.utp.assignment01;
+package com.brodskyi.assignment01.api;
+
 
 import java.util.List;
 

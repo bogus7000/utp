@@ -1,4 +1,4 @@
-package eu.glowacki.utp.assignment01;
+package com.brodskyi.assignment01.api;
 
 public interface IDeeplyCloneable<TElement extends IDeeplyCloneable<TElement>> {
 
