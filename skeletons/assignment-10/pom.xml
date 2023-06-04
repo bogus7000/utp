@@ -90,6 +90,11 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>eu.glowacki</groupId>
+            <artifactId>assignment-04</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
 
 </project>

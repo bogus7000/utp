@@ -1,12 +1,13 @@
 package eu.glowacki.utp.assignment10.repositories;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 
 import eu.glowacki.utp.assignment10.dtos.DTOBase;
 
 public interface IRepository<TDTO extends DTOBase> {
 
-	Connection getConnection();
+	Connection getConnection() throws SQLException;
 
 	void add(TDTO dto);
 
@@ -18,11 +19,11 @@ public interface IRepository<TDTO extends DTOBase> {
 
 	TDTO findById(int id);
 
-	void beginTransaction();
+	void beginTransaction(Connection conn);
 
-	void commitTransaction();
+	void commitTransaction(Connection conn);
 
-	void rollbackTransaction();
+	void rollbackTransaction(Connection conn);
 	
 	int getCount();
 	
